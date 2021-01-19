@@ -6,6 +6,8 @@
  * 
  */
 
+import { Row, Col } from "react-bootstrap";
+
 function makeLevel(level){
     const array = new Array(5);
     for(var i = 0; i <5; i=i+1)
@@ -18,6 +20,8 @@ function makeLevel(level){
 
 function Lang(props){
     return (
-        <h3>{props.lang} : {makeLevel(props.level)}</h3> 
+        <Row> 
+            <Col md={2}> <h3>{props.lang} </h3> </Col> <Col>{makeLevel(props.level)} </Col>
+        </Row> 
     )
 } export default Lang;
