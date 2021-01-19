@@ -8,8 +8,8 @@ function Languages (){
         <div>
             <SectionTitle title="Languages" />
             <Lang lang="Russian" level="5"/>
-            <Lang lang="English" level="4"/>
             <Lang lang="Latin" level="5"/>
+            <Lang lang="English" level="4"/>
         </div>
     )
 
