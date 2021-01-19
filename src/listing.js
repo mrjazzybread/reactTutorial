@@ -12,8 +12,6 @@
 * props.description -> a small description of the position we held
 */
 
-import {Container} from 'react-bootstrap';
-
 function endYear(y){
     if (y === undefined)
         return "Ongoing";

@@ -1,6 +1,5 @@
 import Listing from './listing.js';
 import SectionTitle from './sectionTitle';
-import {Container} from 'react-bootstrap';
 
 
 function Education(){

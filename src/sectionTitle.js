@@ -4,7 +4,6 @@
  * props.title -> title of our section
  */
 
-import {Container} from 'react-bootstrap';
 
 function SectionTitle(props){
    return ( 
