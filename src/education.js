@@ -6,7 +6,7 @@ function Education(){
     return (
         <div>
             <SectionTitle title="Education"/>
-            <Listing title="Bachelor of Medincine" location="Unversity of the Capital"
+            <Listing title="Bachelor of Medicine" location="Unversity of the Capital"
                 startYear="1917" endYear="1920"/>
             <Listing title="Master of Thanatology" location="University of the Capital"
                 startYear="1920" endYear="1922"
