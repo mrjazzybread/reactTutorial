@@ -12,12 +12,7 @@
 * props.description -> a small description of the position we held
 */
 
-function endYear(y){
-    if (y === undefined)
-        return "Ongoing";
-    else
-        return y;
-}
+
 
 function makeDescription(d){
     if(d===undefined)
@@ -31,8 +26,12 @@ function Listing(props){
     <div>
         <h3>{props.title}</h3>
         <h5 className> {props.location}</h5>
-        <p> {props.startYear}-{endYear(props.endYear)}</p>
+        <p> {props.startYear}-{props.endYear}</p>
         {makeDescription(props.description)}
     </div>
     );
 } export default Listing;
+
+Listing.defaultProps = {
+    endYear : "Ongoing"
+}
