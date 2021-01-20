@@ -11,19 +11,7 @@ class App extends Component {
   
   render(){
     return (
-      <Container fluid>
-        <Header/>
-        <Row>
-          <Col>
-            <Employment />
-          </Col>
-          <Col>
-            <LifePhilosophy />
-            <Education />
-            <Languages />
-          </Col>
-        </Row>
-      </Container>
+      null
     );
   }
 }

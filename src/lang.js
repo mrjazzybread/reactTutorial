@@ -8,20 +8,8 @@
 
 import { Row, Col } from "react-bootstrap";
 
-function makeLevel(level){
-    const array = new Array(5);
-    for(var i = 0; i <5; i=i+1)
-        if(i < level)
-            array[i]=<span class="dot red-dot"></span>;
-        else
-            array[i]=<span class="dot grey-dot"></span>;
-    return array;
-}
-
 function Lang(props){
     return (
-        <Row> 
-            <Col md={2}> <h3>{props.lang} </h3> </Col> <Col>{makeLevel(props.level)} </Col>
-        </Row> 
+        null
     )
 } export default Lang;

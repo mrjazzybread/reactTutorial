@@ -6,9 +6,7 @@
 
 
 function SectionTitle(props){
-   return ( 
-    <div>
-        <h2 className="Tagline">{props.title}</h2>
-        <hr />
-    </div>);
+   return (
+        null
+   );
 } export default SectionTitle;

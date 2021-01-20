@@ -4,9 +4,7 @@ import './App.css';
 
 function ContactInfo(props){
         return (
-            <Col md="auto">
-                <FontAwesomeIcon icon={props.icon} /> {props.contact}
-            </Col>
+            null
         );
     }
 

@@ -13,22 +13,9 @@
 */
 
 
-
-function makeDescription(d){
-    if(d===undefined)
-        return null;
-    else
-        return <li> {d} </li>;
-}
-
 function Listing(props){
     return (
-    <div>
-        <h3>{props.title}</h3>
-        <h5 className> {props.location}</h5>
-        <p> {props.startYear}-{props.endYear}</p>
-        {makeDescription(props.description)}
-    </div>
+        null
     );
 } export default Listing;
 
