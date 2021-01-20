@@ -1,4 +1,9 @@
 
+* {
+  font-family: 'Times New Roman';
+  color:darkslategrey;
+}
+
 .photo {
   margin-top: 10px;
   max-width: 30%;
@@ -25,4 +30,12 @@
 
 .grey-dot {
   background-color: grey;
+}
+
+.title {
+  color: rgb(42, 110, 165);
+}
+
+.contact {
+  font-style:italic
 }
