@@ -11,8 +11,8 @@ function Header(){
             <div >
             <Row>
                 <Col md="auto">
-                    <h1 className>DANIIL DANKOVSKY</h1>
-                    <h3 className>Bachelor of Medicine</h3>
+                    <h1 className="title">DANIIL DANKOVSKY</h1>
+                    <h3>Bachelor of Medicine</h3>
                     <Row>
                         <ContactInfo icon={faAt} contact="dd_the_bachelor@yahoo.com" />
                         <ContactInfo icon={faPhone} contact="22 244 4222" />
@@ -24,7 +24,7 @@ function Header(){
                     </Row>
                 </Col>
                 <Col className="PhotoContainer">
-                    <img className="photo" src={photo}/>
+                    <img className="photo" alt="daniil dankovsky"src={photo}/>
                 </Col>
             </Row>
             </div>

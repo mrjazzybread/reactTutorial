@@ -8,7 +8,7 @@
 function SectionTitle(props){
    return ( 
     <div>
-        <h2 className="Tagline">{props.title}</h2>
+        <h2>{props.title}</h2>
         <hr />
     </div>);
 } export default SectionTitle;
